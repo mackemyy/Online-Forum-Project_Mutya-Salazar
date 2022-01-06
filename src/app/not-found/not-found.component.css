@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Montserrat-Regular';
+    font-size: 55px;
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(247, 69, 38);
+}
+
+img {
+    width: 30%;
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #20a093;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}

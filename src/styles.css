@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+@font-face {
+    font-family: "Authentic Signature";
+    src: local("Authentic Signature"), url(./assets/fonts/Authentic-Signature.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: local("Montserrat"), url(./assets/fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"), url(./assets/fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+body, html {
+    height: 100%;
+}

@@ -1,0 +1,104 @@
+.card {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 10;
+    border-radius: 10px;
+    align-content: center;
+    align-self: center;
+}
+
+#cardPost {
+    margin-left: 0%;
+    width: 67%;
+    margin-top: 10;
+    border-radius: 10px;
+    align-content: center;
+    align-self: center;
+}
+
+.namePost {
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: rgb(29, 29, 29);
+}
+
+.contentPost {
+    font-family: 'Montserrat-Regular';
+    font-size: 17px;
+    color: black;
+    margin-left: 30px;
+}
+
+#deleteBtn {
+    margin-top: 2%;
+    margin-left: 85%;
+    margin-bottom: 2%;
+    display: flex;
+    position: inherit;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    margin-left: 40px;
+    font-family: 'Montserrat-Regular';
+    position: inherit;
+}
+
+.name {
+    font-family: 'Montserrat-Regular';
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: rgb(29, 29, 29);
+}
+
+::placeholder {
+    color: rgb(138, 138, 138);
+    text-align: left;
+    font-family: 'Montserrat-Regular';
+}
+
+#submitBtn {
+    margin-bottom: 20px;
+    position: relative;
+    /* margin-left: 100%; */
+}
+
+.btn-group {
+    margin-left: 85%;
+}
+
+.banner {
+    align-content: center;
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+    background-color: rgb(255, 248, 237);
+    margin-bottom: 20px;
+    
+}
+
+.banner h2 {
+    font-family: 'Montserrat';
+    color: rgb(63, 63, 63);
+    padding-bottom: 5px;
+}
+
+.recentPost {
+    margin-left: 25%;
+}
+
+h3 {
+    font-family: 'Montserrat';
+}
+
+#buttons {
+    padding-left: 30%;
+}
+
+#recentPost {
+    margin-bottom: 5%;
+}

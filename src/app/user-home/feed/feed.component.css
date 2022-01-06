@@ -1,0 +1,36 @@
+/* .card {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 10;
+    border-radius: 10px;
+    align-content: center;
+    align-self: center;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    margin-left: 40px;
+    font-family: 'Montserrat-Regular';
+    position: inherit;
+}
+
+.name {
+    font-family: 'Montserrat-Regular';
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: rgb(29, 29, 29);
+}
+
+::placeholder {
+    color: rgb(138, 138, 138);
+    text-align: left;
+    font-family: 'Montserrat-Regular';
+}
+
+.submitBtn {
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 15px;
+} */

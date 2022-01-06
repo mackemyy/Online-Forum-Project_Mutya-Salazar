@@ -1,0 +1,47 @@
+<div class="template">
+    <nav class="navbar navbar-light" style="background-color: #83c5be;">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="assets/images/logo2.png" width="40">
+          HERMANAS FORUM
+        </a>
+  
+        <div class="nav justify-content-end">
+  
+          <p class="nav-item" id="name">Hi, {{loggedInUser}}!</p>
+  
+          <a class="nav-item" 
+            routerLink="/user-home"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}">
+              <div class="home">
+                <img src="assets/images/home.png" class="img-fluid">
+              </div>
+          </a>
+  
+          <a class="nav-item">
+            <button id="post">
+              <img src="assets/images/post.png" />
+            </button>
+          </a>
+  
+          <a class="nav-item">
+            <button id="add" >
+              <img src="assets/images/add.png" />
+            </button>
+          </a>
+          
+          <a class="nav-item">
+            <button id="logout" (click)="logout()" >
+              <img src="assets/images/logout.png" />
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+    </div>
+
+  <h1 class="title">{{title}}</h1>
+    <app-topics></app-topics>
+    <app-feed></app-feed>
+    <router-outlet></router-outlet>

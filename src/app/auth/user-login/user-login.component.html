@@ -1,0 +1,41 @@
+<body>
+    <img src="assets\images\tile_background.png" alt="">
+    <div class="centered">
+        <div class="col-12">
+          <h4>LOGIN</h4><hr>
+        </div>
+
+        <div class="col-12" id="loginSec">
+            <form #userLoginForm="ngForm" (ngSubmit)="login(userLoginForm)">
+                
+                  <div class="col-md-12 mb-2">
+                    <label for="email" class="label">Email</label>
+                    <input ngModel #email="ngModel" name="email" type="email" class="form-control" placeholder="Your Email">
+                  </div>
+                
+                
+                    <div class="col-md-12 mb-2">
+                      <label for="password" class="label">Password</label>
+                      <input ngModel #password="ngModel" name="password" type="password" class="form-control" placeholder="Your password">
+                    </div>
+                
+                
+                    <div class="col-md-12">
+                        <button class="btn btn-primary" id="login" type="submit">Login</button>
+                    </div> <hr>
+                
+                <div class="createAcc">
+                    <p>New to the Hermanas Forum?</p>
+                    <div class="col-md-12">
+                      <button class="btn btn-success" id="create" type="submit" routerLink="../user-register">Create Account</button>
+                    </div> 
+                </div>
+            </form>
+        </div>
+        <div class="row" *ngIf="authError">
+          <div class="col-18 alert alert-danger" id="error">
+          {{ authError?.message }}
+          </div>
+      </div>
+    </div>
+</body>

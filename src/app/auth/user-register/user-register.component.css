@@ -1,0 +1,85 @@
+input.ng-invalid.ng-touched, select.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+/* input.ng-valid.ng-touched, select.ng-valid.ng-touched {
+  background-color: rgb(162, 224, 245)
+} */
+
+.help-block {
+    font-size: 11px;
+    color: red;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+::placeholder {
+    font-size: 11px;
+    font-family: 'Montserrat-Regular';
+}
+
+.centered {
+    height: 690px;
+    width: 660px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+}
+
+.register {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(23, 162, 184);
+}
+
+#registerSec {
+    font-size: 12px;
+    font-family: 'Montserrat-Regular';
+    color: black;
+    padding-left: 10%;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 60%;
+}
+
+#create{
+    font-size: 14px;
+    margin-left: 42%;
+    margin-top: 2%;
+}
+
+#firstName {
+    width: 230px;
+}
+
+#lastName {
+    width: 230px;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(23, 162, 184);
+    padding-top: 15px;
+}
+
+.login {
+    text-align: center;
+}
+
+
+

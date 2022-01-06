@@ -1,0 +1,77 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: #83c5be;
+  }
+  
+  .right {
+    right: 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .logo {
+    padding-top: 220px;
+    display: fixed;
+    position: relative;
+  }
+  
+  .container {
+    font-family: 'Century Gothic';
+    color: #83c5be;
+    border-radius: 20px;
+    border-style:solid ;
+    padding: 30px;
+    margin-top: 100px;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 70px;
+    font-family: Authentic Signature;
+    color: black;
+  }
+  
+  h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 100px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+
+  #registerBtn {
+    width: 170px;
+  }
+
+  #loginBtn {
+    width: 170px;
+  }
+
+  p{
+    font-size: 15px;
+  }

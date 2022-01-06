@@ -1,0 +1,40 @@
+<div class="banner">
+    <img src="assets/images/food.png">
+    <h2>FOOD</h2>
+  </div>
+
+  <div class="card">
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <div class="name">
+              <p>{{userFname}} {{userLname}}</p> 
+            </div>
+            <textarea name="foodPost" placeholder="What do you want to share or ask?" id="foodPost" cols="90" rows="3" required [(ngModel)]="foodPostValue"></textarea>
+            </div>
+
+        <div class="btn-group">
+          <button type="submit" class="btn btn-info" id="submitBtn">Submit</button>
+        </div>
+    </form>
+</div>
+&nbsp;
+<hr>
+&nbsp;
+<div class="recentPost">
+  <h3>Recent Post</h3>
+      <div class="card" id="cardPost" *ngFor="let foodPost of foodPosts | async">
+        <div class="namePost">
+          <p>{{userFname}} {{userLname}} {{userEmail}}</p> 
+        </div>
+        <div class="contentPost">
+          {{foodPost.content}} <br>
+        </div>
+
+        <div class="btn-toolbar" id="buttons" style="padding-left: 15px">
+          <button class="btn btn-info">Reply</button>
+          <button class="btn btn-danger" (click)="deletePost()">Delete</button>
+        </div>
+
+      </div> 
+</div>
+&nbsp;

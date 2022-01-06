@@ -1,0 +1,83 @@
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+p {
+    color: white;
+}
+
+.home {
+    width: 25px;
+    padding-left: 0;
+}
+
+#name {
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+    padding-top: 10px;
+}
+
+#logout {
+    background-color: #83c5be;
+    border:0;
+    border:none;
+    align-content: center;
+}
+
+#post {
+    background-color: #83c5be;
+    border:0;
+    border:none;
+    align-content: center;
+}
+
+#add {
+    background-color: #83c5be;
+    border:0;
+    border:none;
+    align-content: center;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-item {
+    padding-left: 25px;
+    padding-top: 8px;
+}
+
+.template a:focus {
+    color: black;
+}
+
+.template .container-fluid .nav-link a:active {
+    color: black;
+}
+
+.title {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #20a093;
+    font-size: 60px;
+    
+}
+
+/* .logout{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: white;
+} */
